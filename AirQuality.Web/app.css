@@ -1,0 +1,76 @@
+﻿body
+{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+span
+{
+    font-style: italic;
+}
+
+div
+{
+    margin: 0 10px 0 5px;
+}
+
+#datetime
+{
+    font-size: 10pt;
+}
+
+#level
+{
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#description
+{
+    font-size: 10pt;
+}
+
+#score
+{
+    padding: 5px;
+    font-size: 30pt;
+    font-weight: bold;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.out-of-range
+{
+    border: 2px solid black;
+}
+
+.good
+{
+    border: 2px solid green;
+}
+
+.moderate
+{
+    border: 2px solid yellow;
+}
+
+.unhealthy-sensitive
+{
+    border: 2px solid orange;
+}
+
+.unhealthy
+{
+    border: 2px solid red;
+}
+
+.very-unhealthy
+{
+    border: 2px solid purple;
+}
+
+.hazardous
+{
+    border: 2px solid brown;
+}
